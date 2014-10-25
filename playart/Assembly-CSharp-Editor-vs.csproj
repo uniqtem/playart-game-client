@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D651DB3D-9264-A2E3-C70F-A2B921E7593A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\External Assets\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\BMFontReader.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\ComponentSelector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\EventDelegateDrawer.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\FreeType.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUIEditorExtensions.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUIHandles.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUIHelp.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUIJson.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUIMenu.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUISettings.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUISnap.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\PropertyBindingEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\SpriteSelector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIBasicSpriteEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIButtonKeysEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UICameraEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UICameraTool.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIEventTriggerEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIFontInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIFontMaker.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIForwardEventsEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIGridEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIInputEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UILocalizeEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIPanelTool.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIPrefabTool.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIRectEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIRootEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UISliderEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UITableEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UITextureInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UITexturePacker.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+     <Compile Include="Assets\External Assets\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Attribute\EnumFlagsAttributeDrawer.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\CustomCreateAsset.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\EdtiorToolKit.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\ExcelParser.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Inspector\AdvEngineStarterInspector.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Inspector\CameraManagerInspector.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Inspector\Node2DInspector.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Inspector\Node2DSortDataInspector.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Inspector\Sprite2DInspector.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Inspector\TextArea2DInspector.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\CreateAdvEngineWindow.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\CreateManageresWindow.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\CreateNewProjectWindow.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\MeuToolCreate.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\MeuToolOpen.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\MeuToolOutputFile.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\ScenarioData\AdvExcelCsvConverter.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\ScenarioData\AdvExcelImporter.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\ScenarioData\AdvScenarioDataBuilderWindow.cs" />
+     <Compile Include="Assets\External Assets\Utage\Editor\Scripts\Menu\ScenarioData\AdvScenarioDataProject.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Engine\ViNoInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\AnimationNodeInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\DialogPartNodeInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\GUICommon.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\JumpTargetNodeInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\NodeGUI.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\PlaySoundNodeInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\ScenarioNodeInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\SelectionsNodeInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\ViNodeInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Sound\SimpleSoundPlayerInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Sound\ViNoSoundPlayerInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ColorPanelInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\SimpleButtonInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\TransformGUIButtonInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextBoxInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextEventListenerInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextMeshEventListenerInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\DialogPartNodeUtility.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\FlagTableInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\ScenarioCtrlInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SceneCreatorInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SceneInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SystemUIEventInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\ViNoSaveInfoInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Util\ScriptableObjectUtility.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoEditorResources.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoEditorUtil.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoScenarioDataUtil.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Window\DialogItemInspector.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawObjectsTab.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawSamplesTab.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawScenarioTab.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawTemplatesTab.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawViNodesTab.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Window\ObjectCreateTool.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Window\ViNoToolbar.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Wizard\ActorCreateWizard.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Editor\Wizard\SceneCreateWizard.cs" />
+     <Compile Include="Assets\External Assets\VisualNovelToolkit\Scripts\Sample\Editor\CreateSampleGUI.cs" />
+     <None Include="Assets\External Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\External Assets\NGUI\ReadMe - 3.6.8.txt" />
+     <None Include="Assets\External Assets\PQAssets\Query-Chan\Shaders\PQ_Skin.shader" />
+     <None Include="Assets\External Assets\PQAssets\Query-Chan\Documents\ReadMe.txt" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\External Assets\First Fantasy for Mobile\Environments\Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\External Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\External Assets\VisualNovelToolkit\Resources\Shader\Unlit Alpha.shader" />
+     <None Include="Assets\External Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\External Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\External Assets\Utage\LocalizeText\SystemText.txt" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\External Assets\VisualNovelToolkit\ReadMe_Japanese.txt" />
+     <None Include="Assets\External Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\External Assets\PQAssets\Query-Chan\license_en.txt" />
+     <None Include="Assets\External Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\External Assets\Utage\Editor\npoi2.0.1\Read Me.txt" />
+     <None Include="Assets\External Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\External Assets\First Fantasy for Mobile\Environments\Shaders\Water Diffuse.shader" />
+     <None Include="Assets\External Assets\First Fantasy for Mobile\Environments\Shaders\Water Heightmap.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\External Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\External Assets\VisualNovelToolkit\Resources\BGM\ReadMe.txt" />
+     <None Include="Assets\External Assets\VisualNovelToolkit\Examples\Example Dialog\ReadMe.txt" />
+     <None Include="Assets\External Assets\PQAssets\Query-Chan\Shaders\PQ_Halloween.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\External Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\External Assets\PQAssets\Query-Chan\license_jp.txt" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\External Assets\First Fantasy for Mobile\Environments\Shaders\Water Simple.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\External Assets\Melos\Text\Custom.txt" />
+     <None Include="Assets\External Assets\Utage\Examples\ScriptableObject\ExampleText.txt" />
+     <None Include="Assets\External Assets\Melos\Text\Original.txt" />
+     <None Include="Assets\External Assets\Utage\Editor\npoi2.0.1\License.txt" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\External Assets\First Fantasy for Mobile\!Tips.txt" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\External Assets\First Fantasy for Mobile\Environments\Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\External Assets\VisualNovelToolkit\ReadMe.txt" />
+     <None Include="Assets\External Assets\PQAssets\Query-Chan\Shaders\PQ_HW_Ghost.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\External Assets\Utage\Scripts\GameLib\iTween\Plugins\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\External Assets\Utage\ReadMe.txt" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\External Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\External Assets\Utage\Editor\npoi2.0.1\Release Notes.txt" />
+     <None Include="Assets\External Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\External Assets\Utage\LocalizeText\ErrorMsg.txt" />
+     <None Include="Assets\External Assets\Utage\LocalizeText\AdvErrorMsg.txt" />
+     <None Include="Assets\External Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\External Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\External Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\External Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\External Assets\PQAssets\Query-Chan\Shaders\PQ_TransBlue.shader" />
+     <None Include="Assets\External Assets\VisualNovelToolkit\Resources\Effects\ReadMe.txt" />
+     <None Include="Assets\External Assets\First Fantasy for Mobile\!Readme.txt" />
+     <None Include="Assets\External Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\External Assets\NGUI\Examples\Resources\Localization.txt" />
+ <Reference Include="NPOI">
+ <HintPath>/Users/cheonjaenam/Documents/unity3d/playart/Assets/External Assets/Utage/Editor/npoi2.0.1/dotnet3.5/NPOI.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OOXML">
+ <HintPath>/Users/cheonjaenam/Documents/unity3d/playart/Assets/External Assets/Utage/Editor/npoi2.0.1/dotnet3.5/NPOI.OOXML.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OpenXml4Net">
+ <HintPath>/Users/cheonjaenam/Documents/unity3d/playart/Assets/External Assets/Utage/Editor/npoi2.0.1/dotnet3.5/NPOI.OpenXml4Net.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OpenXmlFormats">
+ <HintPath>/Users/cheonjaenam/Documents/unity3d/playart/Assets/External Assets/Utage/Editor/npoi2.0.1/dotnet3.5/NPOI.OpenXmlFormats.dll</HintPath>
+ </Reference>
+ <Reference Include="DLL">
+ <HintPath>/Users/cheonjaenam/Documents/unity3d/playart/Assets/External Assets/VisualNovelToolkit/DLLs/DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{E1435A7A-BD68-66B3-C53A-B7446CF42E57}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
