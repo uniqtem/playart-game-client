@@ -3,31 +3,31 @@ using System.Collections;
 
 public class StartManager : MonoBehaviour
 {
-	private QueryAnimationController anim;
-	private QuerySoundController sound;
+//	private QueryAnimationController anim;
+//	private QuerySoundController sound;
 
 	void Start ()
 	{
-		GameObject gObj = GameObject.Find ("Query-Chan");
-		anim = gObj.GetComponent<QueryAnimationController> ();
-		sound = gObj.GetComponent<QuerySoundController> ();
-
-		Play ();
-
+//		GameObject gObj = GameObject.Find ("Query-Chan");
+//		anim = gObj.GetComponent<QueryAnimationController> ();
+//		sound = gObj.GetComponent<QuerySoundController> ();
+//
+//		Play ();
+		SenceStatic.SENCE = CONFIG.GAME1;
 	}
 
 	void Update ()
 	{
 		if (Input.GetMouseButtonDown (0)) {
-			Play ();
+//			Play ();
 		}
 	}
 
-	private void Play ()
-	{
-		anim.ChangeAnimation (GetRandomEnum<QueryAnimationController.QueryChanAnimationType> ());
-		sound.PlaySoundByType (GetRandomEnum<QuerySoundController.QueryChanSoundType> ());
-	}
+//	private void Play ()
+//	{
+//		anim.ChangeAnimation (GetRandomEnum<QueryAnimationController.QueryChanAnimationType> ());
+//		sound.PlaySoundByType (GetRandomEnum<QuerySoundController.QueryChanSoundType> ());
+//	}
 
 	private T GetRandomEnum<T> ()
 	{

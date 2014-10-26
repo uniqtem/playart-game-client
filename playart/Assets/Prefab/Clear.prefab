@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Clear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 63919f203e3a24746baf6c083cc9cf6d, type: 2}
+  mSprites:
+  - name: Complete
+    x: 0
+    y: 1408
+    width: 1024
+    height: 640
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jyousi_angry
+    x: 1705
+    y: 1599
+    width: 226
+    height: 449
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 114
+    paddingRight: 21
+    paddingTop: 63
+    paddingBottom: 0
+  - name: jyousi_nomal
+    x: 1251
+    y: 1598
+    width: 226
+    height: 450
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 114
+    paddingRight: 21
+    paddingTop: 62
+    paddingBottom: 0
+  - name: jyousi_smile
+    x: 1478
+    y: 1599
+    width: 226
+    height: 449
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 114
+    paddingRight: 21
+    paddingTop: 63
+    paddingBottom: 0
+  - name: main_angry
+    x: 207
+    y: 527
+    width: 192
+    height: 391
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 97
+    paddingRight: 83
+    paddingTop: 28
+    paddingBottom: 93
+  - name: main_normal
+    x: 1025
+    y: 1593
+    width: 225
+    height: 455
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 47
+    paddingRight: 100
+    paddingTop: 40
+    paddingBottom: 17
+  - name: main_smile
+    x: 0
+    y: 39
+    width: 193
+    height: 390
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 97
+    paddingRight: 82
+    paddingTop: 29
+    paddingBottom: 93
+  - name: senpai_angry
+    x: 207
+    y: 919
+    width: 206
+    height: 488
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 64
+    paddingRight: 91
+    paddingTop: 24
+    paddingBottom: 0
+  - name: senpai_normal
+    x: 0
+    y: 919
+    width: 206
+    height: 488
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 64
+    paddingRight: 91
+    paddingTop: 24
+    paddingBottom: 0
+  - name: senpai_smail
+    x: 0
+    y: 430
+    width: 206
+    height: 488
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 64
+    paddingRight: 91
+    paddingTop: 24
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
